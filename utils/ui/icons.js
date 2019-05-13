@@ -1,0 +1,46 @@
+import React from 'react';
+import {
+  MdAdd,
+  MdBookmarkBorder,
+  MdClose,
+  MdComment,
+  MdFavoriteBorder,
+  MdPlayArrow,
+  MdKeyboardArrowRight,
+  MdKeyboardArrowLeft,
+  MdKeyboardArrowUp,
+  MdKeyboardArrowDown,
+  MdPrint,
+  MdSearch,
+  MdShare,
+  MdShoppingBasket,
+  MdAccountCircle,
+  MdRemove,
+  MdCheck,
+} from 'react-icons/md';
+
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+
+export const icons = {
+  add: <MdAdd />,
+  bookmarkBorder: <MdBookmarkBorder />,
+  check: <MdCheck />,
+  close: <MdClose />,
+  comment: <MdComment />,
+  facebook: <FaFacebookF />,
+  favoriteBorder: <MdFavoriteBorder />,
+  instagram: <FaInstagram />,
+  minus: <MdRemove />,
+  nextArrow: <MdKeyboardArrowRight />,
+  play: <MdPlayArrow />,
+  prevArrow: <MdKeyboardArrowLeft />,
+  print: <MdPrint />,
+  search: <MdSearch />,
+  share: <MdShare />,
+  shoppingBasket: <MdShoppingBasket />,
+  twitter: <FaTwitter />,
+  upArrow: <MdKeyboardArrowUp />,
+  downArrow: <MdKeyboardArrowDown />,
+  user: <MdAccountCircle />,
+  youtube: <FaYoutube />,
+};

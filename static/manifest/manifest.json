@@ -1,0 +1,24 @@
+{
+  "name": "Al.ta Cucina",
+  "short_name": "Al.ta",
+  "icons": [
+    {
+      "src": "/static/images/favicons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/images/favicons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "La community italian del food",
+  "dir": "ltr",
+  "lang": "it"
+}
